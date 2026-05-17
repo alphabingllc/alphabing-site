@@ -561,6 +561,27 @@ h3 {
     transform: scale(1.42);
   }
 
+  .feature-card .store-badges {
+    flex-wrap: nowrap;
+    gap: 8px;
+  }
+
+  .feature-card .store-badge {
+    width: 120px;
+    height: 36px;
+  }
+
+  .feature-card .google-play-badge {
+    width: 120px;
+  }
+
+  .feature-card .arvr-link {
+    width: 36px;
+    height: 36px;
+    font-size: 1.2rem;
+    flex-shrink: 0;
+  }
+
   .site-footer {
     align-items: flex-start;
     flex-direction: column;
